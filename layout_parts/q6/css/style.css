@@ -62,11 +62,7 @@
   margin: auto;
 }
 
-.is-stable {
-  position: relative;
-}
-
-.is-flexible {
+.is-stable ,.is-flexible {
   position: relative;
 }
 
