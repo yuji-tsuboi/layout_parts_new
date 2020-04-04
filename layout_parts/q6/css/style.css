@@ -62,7 +62,7 @@
   margin: auto;
 }
 
-.is-stable ,.is-flexible {
+.is-stable .is-flexible {
   position: relative;
 }
 
@@ -75,4 +75,3 @@
   padding: 10px;
   background-color: #E6F2FF;
 }
-

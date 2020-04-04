@@ -1,5 +1,41 @@
 @charset "UTF-8";
+.q8__img-container {
+  margin: 0 auto;
+  cursor: pointer;
+  width: 500px;
+  height: 333px;
+  overflow: hidden;
+  position: relative;
+}
 
+.q8__img {
+  transition: all .5s;
+}
+
+.q8__img-container:hover .q8__img {
+  transform: scale(1.5);
+}
+
+.q8__img__sent {
+  position: absolute;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,8));
+  transition: all .5s;
+  }
+  
+
+.q8__img__sent__text {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  color: #fff;
+  word-break: break-all;
+  box-sizing: border-box;
+}
+
+.q8__img-container:hover .q8__img__sent {
+  bottom: 0;
+}
+
+.
 /* 回答はここに書いてね */
-
 /* 回答はここに書いてね */
