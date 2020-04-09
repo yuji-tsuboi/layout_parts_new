@@ -7,32 +7,32 @@
   clear: both;
 }
 
-.q7 .q7__box {
+.q7 .q7__boxs {
   width: 225px;
 }
 
-.q7--float .q7__box {
+.q7--float .q7__boxs {
   float: left;
   font-size: 16px;
   margin-left: 50px; 
   box-sizing: border-box;
 }
 
-.q7--float .q7__box:first-child {
+.q7--float .q7__boxs:first-child {
   margin-left: 0;
 }
 
-.q7--table .q7__inner {
+.q7--table .q7__inners {
   display: table;
 }
 
-.q7--table .q7__box {
+.q7--table .q7__boxs {
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
 
-.q7__table .q7__box__text {
+.q7__table .q7__text {
   font-size: 16px;
 }
 
@@ -40,11 +40,11 @@
   padding-left: 0;
 }
 
-.q7--inlineblock .q7__inner {
+.q7--inlineblock .q7__inners {
   font-size: 0;
 }
 
-.q7--inlineblock .q7__box {
+.q7--inlineblock .q7__boxs {
   display: inline-block;
   font-size: 16px;
   vertical-align: middle;
@@ -52,22 +52,22 @@
   box-sizing: border-box;
 }
 
-.q7--inlineblock .q7__box:first-child {
+.q7--inlineblock .q7__boxs:first-child {
   margin-left: 0;
 }
 
-.q7--flex .q7__inner {
+.q7--flex .q7__inners {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
-.q7--flex .q7__box {
+.q7--flex .q7__boxs {
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
 }
 
-.q7--margin .q7__box {
+.q7--margin .q7__boxs {
   vertical-align: top;
 }
 
@@ -80,7 +80,7 @@
   font-size: 0;
 }
 
-.q7--margin .q7__box__text {
+.q7--margin .q7__text {
   font-size: 16px;
 }
 .q7--margin .right-box {
